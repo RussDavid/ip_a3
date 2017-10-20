@@ -1,0 +1,144 @@
+/*14121056 Glucina, Christian
+This CSS file contains styling information for all front end HTML i my toolshed website.
+*/
+
+/*This setups up my standard background for all pages*/
+body {
+    margin:0;
+    background-image: url("../images/background1.jpg");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+ul.topMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cc3300;
+}
+
+ul.topMenu li {float: left;}/*This styles the top menu bar on the search and welcome pages */
+
+ul.topMenu li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+input[name=product] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+ul.topMenu li a:hover {background-color: #555;}
+
+ul.topMenu li.icon {display: none;}
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+table, td, th {
+    border: 2px solid darkblue;
+    padding: 7px;
+}
+
+th {text-align: left;}
+
+form.searchBox{
+    display: inline-block;
+    color: #333;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 23px;
+}
+
+#txtHint {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+#Welcome {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    padding: 10px;
+    margin-left: -262px;
+    text-align: center;
+    font-size: large;
+}
+
+
+#instructions {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    padding: 10px;
+    margin-left: -262px;
+    color: #333;
+    text-align: center;
+    font-size: medium;
+}
+
+#Title {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    padding: 10px;
+    margin-left: -262px;
+    color: #cc3300;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#login {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    padding: 10px;
+    margin-left: -262px;
+    color: #333;
+    text-align: center;
+    font-size: medium;
+}
+
+#Register {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    padding: 10px;
+    margin-left: -262px;
+    color: #333;
+    text-align: left;
+    font-size: medium;
+}
+
+#Reg_form {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    padding: 10px;
+    margin-left: -262px;
+    text-align: center;
+    font-size: medium;
+}
